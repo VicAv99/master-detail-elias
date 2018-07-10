@@ -1,0 +1,39 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+mat-toolbar {
+  z-index: 1;
+}
+
+mat-sidenav {
+  width: 200px;
+}
+
+span {
+  font-size: 25px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+a.ventur {
+  color: white;
+  text-decoration: none;
+}
+
+.mat-sidenav-container {
+  background: whitesmoke;
+  flex: 1;
+}
+
+.nav-link {
+  color: rgba(0,0,0,.54);
+  display: flex;
+  align-items:center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,17 @@
+<div class="wrapper">
+
+  <div class="details-grid">
+    <app-employee-details [contacts]="currentContact"
+                          (cancelled)="cancel($event)"
+                          (saved)="save($event)">
+    </app-employee-details>
+  </div>
+
+  <div class="list-grid">
+    <app-employee-list [contacts]="contacts"
+                       (selected)="selectContact($event)"
+                       (deleted)="deleteContact($event)">
+    </app-employee-list>
+  </div>
+
+</div>

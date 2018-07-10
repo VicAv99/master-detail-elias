@@ -1,0 +1,35 @@
+mat-card {
+  padding: 0 0 35px 0;
+}
+
+mat-card-header {
+  margin: auto;
+  width: 80%;
+}
+
+mat-card-subtitle {
+  margin-left: 15px;
+}
+
+mat-card-content {
+  width: 80%;
+  margin: auto;
+  padding: 15px 0;
+}
+
+mat-card-actions {
+  margin: auto;
+  padding: 0;
+  width: 80%;
+}
+
+button.right-button {
+  margin-left: 10px;
+}
+
+.list-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}

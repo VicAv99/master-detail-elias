@@ -1,0 +1,17 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 10px;
+}
+
+.details-grid {
+  grid-column: 6/9;
+  grid-row: 1;
+}
+
+.list-grid {
+  grid-column: 2/6;
+  grid-row: 1;
+}
